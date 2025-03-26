@@ -1,0 +1,31 @@
+.grid_block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    min-height: auto; /* Fixed typo: 'min-height;' had no value */
+}
+
+.ellipse {
+    margin-bottom: 1rem;
+    width: 5rem;
+    height: 5rem;
+    background-color: #D9D9D9;
+    border-radius: 50%;
+}
+
+.content {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+/* Target individual text elements inside .content if needed */
+.content h3 {
+    margin: 0;
+}
+
+.content p {
+    margin: 0;
+}
