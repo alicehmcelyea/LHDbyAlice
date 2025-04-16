@@ -8,168 +8,26 @@
 </head>
 <body>
   <div class="site-wrapper">
-    <header class="site-header">
-      <nav class="uppernav">
-        <ul>
-          <li><a href="#">Creek Chronicles</a></li>
-          <li><a href="#">Calendar</a></li>
-          <li><a href="#">Contact Us</a></li>
-        </ul>
-      </nav>
+    
+    <!-- Full-width navbar -->
+    <div data-include="parts/navbar.html"></div>
 
-      <nav class="lower-navbar">
-  <div class="nav-left">
-    <a href="/" class="logo-link">
-      <img src="assets/images/FoCMCW_Horz_Color_.png" alt="Site Logo" class="site-logo" />
-    </a>
-  </div>
+    <!-- Full-width hero section -->
+    <div data-include="parts/hero-section.html"></div>
 
-  <div class="nav-right">
-    <div class="dropdown">
-      <a href="#" class="dropdown-item">About Us</a>
-      <div class="dropdown-menu">
-        <a href="#" class="dropdown-link-1">Link 1</a>
-        <a href="#" class="dropdown-link-2">Link 2</a>
-      </div>
-    </div>
-    <a href="#" class="dropdown-item">The Watershed</a>
-    <a href="#" class="dropdown-item">Projects</a>
-    <a href="#" class="dropdown-item">Resources</a>
-    <a href="#" class="dropdown-item">Get Involved</a>
-  </div>
-</nav>
+    <!-- Constrained internal content -->
+    <main class="internal-content-body">
+    <div data-include="parts/content.html"></div>
 
-
-    </header>
-
-    <main class="main-container">
-      <p>Button Components</p>
-      <div style="width: 438px; height: 111px; background-color: #e5e5e5; margin: 0 35px; display: flex; align-items: center; justify-content: center; gap: 35px; border-radius: 5px;">
-        <a href="https://example.com" class="primary-button">See all</a>
-        <a href="https://example.com" class="secondary-button">See all</a>
-        <a href="https://example.com" class="link">
-          Lorem ipsum
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="10" viewBox="0 0 16 10" fill="none" style="margin-left: 0.4em;">
-            <path d="M11.166 9.2793L14.9732 5.65347C15.1503 5.48472 15.2504 5.25582 15.2504 5.01753C15.2504 4.77925 15.1503 4.55035 14.9732 4.3816L11.166 0.755766C10.9905 0.576866 10.7477 0.473733 10.4909 0.469049C10.2342 0.465143 9.98725 0.559674 9.80595 0.732333C9.62465 0.904991 9.52459 1.14093 9.5295 1.38468C9.5336 1.62922 9.64271 1.86125 9.82973 2.02765L12.0249 4.11748L0.944982 4.11748C0.423272 4.11748 0 4.52062 0 5.01748C0 5.51435 0.423272 5.91748 0.944982 5.91748L12.0249 5.91748L9.82973 8.01748C9.48274 8.37217 9.4934 8.92452 9.85352 9.26748C10.2128 9.61045 10.7936 9.61983 11.166 9.28936V9.2793Z" fill="#2579B1"/>
-          </svg>
-        </a>
-      </div>
-
-      <p>Card Components</p>
-      <div style="width: 712px; height: 631px; background-color: #e5e5e5; border-radius: 5px; display: grid; grid-template-columns: repeat(2, 1fr); grid-template-rows: repeat(2, auto); row-gap: 51px; column-gap: 33px; padding: 20px; justify-items: center; align-items: start;">
-        <!-- First Card -->
-        <div class="card">
-          <div class="card-image" style="background-image: url('<path-to-image>');"></div>
-          <h3>Project Title</h3>
-        </div>
-
-        <!-- Second Card -->
-        <div class="card secondary">
-          <div class="card-image"></div>
-          <div>
-            <h3>Article Title</h3>
-            <div class="card-meta">
-              <p class="navtext">Author</p>
-              <span class="divider"></span>
-              <p class="navtext">YEAR</p>
-            </div>
-          </div>
-        </div>
-
-        <!-- Third Card -->
-        <div class="topic-card">
-          <svg xmlns="http://www.w3.org/2000/svg" width="107" height="107" viewBox="0 0 107 107" fill="none">
-            <circle cx="53.5" cy="53.5" r="53.5" fill="#D9D9D9" />
-          </svg>
-          <h3>Project Title</h3>
-        </div>
-      </div>
-
-      <p>Grid Content Item Component</p>
-      <div style="width: 393px; height: 476px; background-color: #FFFFFF; border-radius: 5px; display: flex; flex-direction: column; justify-content: flex-end; align-items: flex-start; gap: 1rem; padding: 20px;">
-        <div class="grid_block">
-          <div class="content">
-            <div class="ellipse"></div>
-            <h3>Title</h3>
-            <p>Description</p>
-            <a href="https://example.com" class="link">
-              Lorem ipsum
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="10" viewBox="0 0 16 10" fill="none" style="margin-left: 0.4em;">
-                <path d="M11.166 9.2793L14.9732 5.65347C15.1503 5.48472 15.2504 5.25582 15.2504 5.01753C15.2504 4.77925 15.1503 4.55035 14.9732 4.3816L11.166 0.755766C10.9905 0.576866 10.7477 0.473733 10.4909 0.469049C10.2342 0.465143 9.98725 0.559674 9.80595 0.732333C9.62465 0.904991 9.52459 1.14093 9.5295 1.38468C9.5336 1.62922 9.64271 1.86125 9.82973 2.02765L12.0249 4.11748L0.944982 4.11748C0.423272 4.11748 0 4.52062 0 5.01748C0 5.51435 0.423272 5.91748 0.944982 5.91748L12.0249 5.91748L9.82973 8.01748C9.48274 8.37217 9.4934 8.92452 9.85352 9.26748C10.2128 9.61045 10.7936 9.61983 11.166 9.28936V9.2793Z" fill="#2579B1"/>
-              </svg>
-            </a>
-          </div>
-        </div>
-      </div>
     </main>
 
-    <footer class="site-footer">
-    <div class="footer-container">
-  
-      <!-- Top Row -->
-      <div class="footer-grid">
-        <!-- Top Left: Logo + Contact -->
-        <div class="footer-top-left">
-          <div class="footer-logo">
-            <img src="assets/images/FoCMCW_Circle_Color.png" alt="Footer Logo" />
-          </div>
-          <div class="footer-contact">
-            <h5>Contact Us</h5>
-            <p class="bc-small">
-              415-456-5052 (voice) | 415-456-4992 (fax)<br>
-              info@friendsofcortemaderacreek.org<br>
-              PO Box 415 Larkspur, CA 94977
-            </p>
-          </div>
-        </div>
-  
-        <!-- Top Right: Links -->
-        <div class="footer-top-right">
-          <div class="footer-column">
-            <h5><a href="#">About Us</a></h5>
-            <h5><a href="#">Projects</a></h5>
-            <h5><a href="#">The Watershed</a></h5>
-            <h5><a href="#">Resources</a></h5>
-          </div>
-          <div class="footer-column">
-            <h5><a href="#">Creek Chronicles</a></h5>
-            <h5><a href="#">Calendar</a></h5>
-            <h5><a href="#">Contact Us</a></h5>
-            <h5><a href="#">Get Involved</a></h5>
-          </div>
-          <div class="footer-column">
-            <h5>Follow Us:</h5>
-            <h5><a href="#">Instagram</a></h5>
-            <h5><a href="#">LinkedIn</a></h5>
-          </div>
-        </div>
-      </div>
-  
-      <!-- Bottom Row -->
-      <div class="footer-grid">
-        <div class="footer-bottom-left">
-          <p class="bc-small">© 2025 All Rights Reserved | Website by Laura Hobbs Design</p>
-        </div>
-        <div class="footer-bottom-right">
-          <p class="bc-small">
-            All photographs © Charles Kennard, unless otherwise credited.<br>
-            All use of text and photographs for other than personal purposes is prohibited
-            without permission from Friends of Corte Madera Creek.
-          </p>
-        </div>
-      </div>
-    </div>
-  </footer>
-  
+    <!-- Footer can be constrained or full-width -->
 
-  
-
-
-
-      
-
-  
+      <div data-include="parts/footer.html"></div>
 
   </div>
+
+  <script src="js/include.js"></script>
 </body>
+
 </html>
