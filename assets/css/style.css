@@ -314,6 +314,7 @@ nav a {
 .hero-nav-items {
   color: white;
   text-decoration: none;
+<<<<<<< HEAD
   font-weight: 400;
   padding: 0.5rem 1rem;
   transition: background 0.2s ease;
@@ -326,6 +327,14 @@ nav a {
 
 
 
+=======
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  transition: background 0.2s ease;
+  border-radius: 5px;
+}
+
+>>>>>>> 20cc3764b96e2e4bda79d0afc42c61e369c92781
 .hero-nav-items:hover {
   background: rgba(255, 255, 255, 0.05);
 }
