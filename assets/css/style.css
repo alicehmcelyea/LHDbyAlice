@@ -353,6 +353,7 @@ nav a {
   padding: 1.25rem;
   border-radius: 0.625rem;
   background: rgba(121, 162, 66, 0.10);
+  flex-shrink: 0;
   /* 🧹 Removed flex-related layout from the sticky container */
 }
 
