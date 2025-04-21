@@ -12,20 +12,7 @@
       <div data-include="../parts/navbar.html"></div>
 
       <!-- Full-width hero section -->
-      <div class="hero-section-container">
-        <div class="hero-header">
-          <h1>Hero Title</h1>
-      
-          <div class="hero-nav">
-            <a href="#" class="hero-nav-items">Item 1</a>
-            <a href="#" class="hero-nav-items">Item 2</a>
-            <a href="#" class="hero-nav-items">Item 3</a>
-            <a href="#" class="hero-nav-items">Item 4</a>
-            <a href="#" class="hero-nav-items">Item 5</a>
-            <a href="#" class="hero-nav-items">Item 6</a>
-          </div>
-        </div>
-      </div>
+      <div data-include="../parts/hero/hero-text-nav.html"></div>
 
       <!-- Constrained internal content -->
       <main class="internal-content-body">
@@ -36,244 +23,35 @@
                 <h3>Table of Contents</h3>
                 <hr class="toc-divider" />
               </div>
-
               <ul>
-                <li>
-                  <a href="#recommendations"
-                    >Recommendations for Creek Corridor Management Plans and
-                    Creek Protection Policies and Ordinances
-                  </a>
-                </li>
-                <li><a href="#additional-guidelines">Two</a></li>
-                <li><a href="#additional-guidelines">Three</a></li>
+                <li><a href="#section-1">First </a></li>
+                <li><a href="#section-2">Second</a></li>
+                <li><a href="#section-3">Third</a></li>
+                <li><a href="#section-4">Fourth</a></li>
+                <li><a href="#section-5">Fifth</a></li>
               </ul>
             </aside>
 
             <div class="sidebar-richtext">
-              <h2 class="content-block" id="recommendations">
-                Creek Protection
-              </h2>
-              <p class="bc-small">
-                Creek setbacks are generally considered important for
-                maintaining the natural functions of creeks in developed areas.
-                These functions include serving as wildlife corridors, providing
-                habitat for fish such as the threatened steelhead, allowing for
-                lateral movement, filtering out pollutants through riparian
-                vegetation on sloping creek banks or marsh vegetation on level
-                shorelines, and conveying flood waters. Natural creeks also have
-                recognized esthetic value and a cooling effect for nearby
-                homeowners. 
-                <br /><br />
-                Regardless of their value, our creeks and their environs
-                continue to be degraded by structures and paving that are
-                constructed too close to the channel and by the armoring of
-                creek banks to protect these structures. Armored banks lead to
-                narrower channels, faster flowing floodwaters, additional
-                erosion of creek banks both upstream and downstream, and further
-                armoring. Destruction of native vegetation and water diversions
-                also degrade the riparian corridor. All this destroys the very
-                things we value about our creeks—and may result in bringing
-                about what San Anselmo and Fairfax prevented the Army Corps from
-                achieving in the 1970s: the substantial channelization of San
-                Anselmo, Fairfax, and Sleepy Hollow creeks.  
-                <br /><br />
-                Effective protection measures should be incorporated in local
-                codes to apply to alterations within the creek channels and
-                improvements on property adjacent to the creeks. An ordinance
-                would have to be flexible enough to fit the varied conditions of
-                lots within the town, while not allowing so many exceptions that
-                it is useless. Marin County has been working on a Stream
-                Conservation Ordinance for decades but because of property owner
-                resistance, has had limited success in implementing it. 
-                <br /><br />
-                We urge local jurisdictions to draft riparian corridor
-                protection plans, implemented by ordinances, to control
-                development on properties in the vicinity of our creeks, and to
-                ensure that when development occurs, riparian habitat is
-                simultaneously improved. 
-              </p>
+              <h2 class="content-block">Header</h2>
+              <img href="#" alt="image-placeholder">
+              <p class="bc-small">Placeholder content for main section.</p>
 
-              <h2 class="content-block" id="additional-guidelines">
-                Recommendations for Creek Corridor Management Plans and Creek
-                Protection Policies and Ordinances
-              </h2>
-              <ul class="bc-small">
-                <li>
-                  Friends of Corte Madera Creek Watershed makes the following
-                  recommendations for creek corridor management plans and creek
-                  protection policies and ordinances: 
-                </li>
+              <h3 class="content-block" id="section-1">First</h3>
+              <p class="bc-small">Placeholder content for section 1.</p>
 
-                <li>
-                  Natural features and functions of a creek corridor should be
-                  protected. These include: sloping banks; native vegetation; a
-                  riparian zone capable of filtering out pollutants (especially
-                  sediment); wildlife habitat and passage; aquatic life; a
-                  degree of meandering of the stream; esthetic value; bank cover
-                  to reduce erosion; and roughness of banks to attenuate flood
-                  waters.
-                </li>
-                <li>
-                  The California Code of Regulations Title 14, Section 1.72
-                  defines a stream, creek or river as “a body of water that
-                  flows at least periodically or intermittently through a bed or
-                  channel having banks and supports fish or other aquatic life.
-                  This includes watercourses having a surface or subsurface flow
-                  that supports or has supported riparian vegetation.”
-                </li>
-                <li>
-                  Designated creek corridor width should be based on the
-                  potential for riparian habitat and varies from creek to creek.
-                  Some definitions of creek corridor width depend on the
-                  observed creek profile and character of existing vegetation at
-                  a particular site. However, in a developed area, such a
-                  definition ignores prior destruction of riparian vegetation
-                  and the natural potential of an area. Where the designated
-                  creek corridor is narrower than the setback, property owners
-                  are encouraged to enhance riparian habitat in the setback.
-                </li>
-                 
-                <li>
-                  Creek setback. Setbacks are generally measured from the top of
-                  the bank or from the creek centerline. The City of Oakland
-                  defines the setback as being measured back from the imaginary
-                  top of a 2:1 slope from the toe of the bank (i.e., a
-                  26.5-degree slope), a definition that more closely
-                  approximates a natural condition in alluvial soils. Such a
-                  definition also avoids depending on a movable and often
-                  artificial starting point; additionally, homeowners who grade
-                  back the creek bank could find themselves penalized as the
-                  effective setback is increased. The setback distance could
-                  vary from creek to creek, as established in a management plan.
-                  Development (e.g., buildings, impervious paving, swimming
-                  pools) should be prohibited within the setback. Varying
-                  setbacks could be established for different reaches of a creek
-                  depending upon the width of the riparian corridor, and
-                  potential (or lack of potential) for creek restoration.  
-                </li>
-                <li>
-                  The term “buffer” may be used to refer to a band of lightly
-                  used land between a defined creek corridor and the setback
-                  distance.  
-                </li>
-                <li>
-                  Uses that are allowed or disallowed within a designated zone
-                  must be defined. Improvements such as fences, paving, decks,
-                  hot tubs and ornamental plantings must be addressed.  
-                </li>
-                <li>
-                  Design review should be required in defined circumstances.  
-                </li>
-                <li>
-                  Variances may be permitted on improved properties, on small
-                  lots, and in irremediable situations; however, most situations
-                  should be addressed through the specific setback distance
-                  established for each creek.  
-                </li>
-                <li>
-                  The requirement to obtain permits from other regulatory
-                  agencies should be included. These agencies may include San
-                  Francisco Bay Regional Water Quality Control Board, California
-                  Department of Fish and Wildlife, Army Corps of Engineers, NOAA
-                  Fisheries, and the Coastal Commission.  
-                </li>
-                <li>
-                  Any new creekside project should include a survey of the
-                  riparian area and a study of the consequences of any
-                  alterations to grade, vegetation, or runoff.  
-                </li>
-                <li>
-                  Habitat enhancement should be encouraged or required as a
-                  condition of a permit. New vegetation should be maintained and
-                  monitored.  
-                </li>
-                <li>
-                  Tree protection policies should consider whether a species is
-                  native or not. Invasive non-native plant species such as
-                  bamboo, giant reed (Arundo), ivy and periwinkle (Vinca) should
-                  be prohibited from being planted within protected zones. Only
-                  native riparian species should be planted within the
-                  designated riparian corridor.  
-                </li>
-                <li>
-                  Fence design should be considered, to allow for wildlife
-                  passage and creek protection.  
-                </li>
-                <li>
-                  Surface runoff must be managed to increase infiltration and
-                  reduce erosion.  
-                </li>
-                <li>
-                  Best Management Practices for creekside construction should be
-                  defined.  
-                </li>
-                <li>
-                  Biotechnical techniques of bank stabilization should be
-                  required, when stabilization is necessary. Any other technique
-                  used must incorporate plantings, e.g., crib walls and riprap.
-                  Ideally, the bank is sloped back to a gentler grade.  
-                </li>
-                <li>Channel water-carrying capacity should be maintained.  </li>
-                <li>Flood-plains should be enlarged where possible.  </li>
-                <li>
-                  Vegetation removal and trimming for flood control purposes
-                  must be carried out only as each specific site requires to
-                  serve the purpose, following up-to-date practices.  
-                </li>
-                <li>
-                  Water diversions should be prohibited. Summer pools are
-                  critical habitat for young steelhead. 
-                </li>
-              </ul>
+              <h3 class="content-block" id="section-2">Second</h3>
+              <p class="bc-small">Placeholder content for section 2.</p>
 
-              <h2 class="content-block" id="additional-guidelines">
-                Additional Guidelines
-              </h2>
-              <p class="bc-small">
-                Other guidelines for creek protection can be found by contacting
-                the following agencies or in the following documents:
-              </p>
-              <ul>
-                <li>
-                  Start at the Source Tools Handbook (2000), by San Francisco
-                  Bay Area Stormwater Management Agencies Association (BASMAA) 
-                </li>
-                 
-                <li>
-                  Marin County Stormwater Pollution Protection Program
-                  (MCSTOPPP).  
-                </li>
-                <li>California Department of Fish and Wildlife.  </li>
-                <li>
-                  San Francico Bay Regional Water Quality Control Board.  
-                </li>
-                <li>
-                  Center for Watershed Protection, in Maryland, provides
-                  guidelines for urban areas  
-                </li>
-                <li>
-                  County of Marin: Stream Conservation Area Ordinance (draft
-                  5/3/2013).  
-                </li>
-                <li>Fairfax: General Zone Regulations.  </li>
-                <li>Novato: Waterway and Riparian Protection.  </li>
-                <li>
-                  Oakland: Creek Protection, Stormwater Management and Discharge
-                  Control Ordinance.  
-                </li>
-                <li>Ross: Design Review Ordinance  </li>
-                <li>
-                  City of Santa Cruz: City Wide Creeks and Wetlands Management
-                  Plan (2006), certified by the California Coastal Commission in
-                  2008 
-                </li>
-                <li>
-                  The Handbook for Forest, Ranch and Rural Roads (2015), by
-                  Pacific Watershed Associates (PWA), available through the
-                  State Board of Forestry and Fire Protection or the State Water
-                  Resources Control Board. 
-                </li>
-              </ul>
+              <h3 class="content-block" id="section-3">Third</h3>
+              <p class="bc-small">Placeholder content for section 3.</p>
+
+              <h3 class="content-block" id="section-4">Fourth</h3>
+              <p class="bc-small">Placeholder content for section 4.</p>
+
+              <h3 class="content-block" id="section-5">Fifth</h3>
+              <p class="bc-small">Placeholder content for section 5.</p>
+
             </div>
           </div>
         </div>
@@ -283,6 +61,20 @@
       <div data-include="../parts/footer.html"></div>
     </div>
 
+    <script>
+      const heroData = {
+        title: "Creek Care",
+        navItems: [
+          "Overview",
+          "Creek Protection",
+          "Gardening Guidelines",
+          "Land Management",
+          "Invasive Plants",
+          "Erosion",
+          "Pollution"
+        ]
+      };
+    </script>
     <script src="/LHDbyAlice/js/include.js"></script>
   </body>
 </html>

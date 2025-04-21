@@ -12,20 +12,7 @@
       <div data-include="../parts/navbar.html"></div>
 
       <!-- Full-width hero section -->
-      <div class="hero-section-container">
-      <div class="hero-header">
-        <h1>About the Watershed</h1>
-    
-        <div class="hero-nav">
-          <a href="#" class="hero-nav-items">Rainfall, Streamflow, and Flooding</a>
-          <a href="#" class="hero-nav-items">Plants and Animals</a>
-          <a href="#" class="hero-nav-items">Geomorphology</a>
-          <a href="#" class="hero-nav-items">Land Management</a>
-          <a href="#" class="hero-nav-items">Development History</a>
-          <a href="#" class="hero-nav-items">Maps</a>
-        </div>
-      </div>
-    </div>
+      <div data-include="../parts/hero/hero-text-nav.html"></div>
 
       <!-- Constrained internal content -->
       <main class="internal-content-body">
@@ -36,60 +23,35 @@
                 <h3>Table of Contents</h3>
                 <hr class="toc-divider" />
               </div>
-
               <ul>
-                <li><a href="#rainfall">Rainfall and Streamflow</a></li>
-                <li><a href="#flooding">Flooding</a></li>
+                <li><a href="#section-1">First </a></li>
+                <li><a href="#section-2">Second</a></li>
+                <li><a href="#section-3">Third</a></li>
+                <li><a href="#section-4">Fourth</a></li>
+                <li><a href="#section-5">Fifth</a></li>
               </ul>
             </aside>
 
             <div class="sidebar-richtext">
-              <h2 class="content-block" id="rainfall">
-                Rainfall and Streamflow
-              </h2>
-              <p class="bc-small">
-                The average annual rainfall for the period October 1979 through
-                September 1996 measured by Roy Farrington Jones on Olive Avenue
-                in Ross was 49.33 inches. The lowest rainfall during that period
-                was 28.29 inches in water year 1990 (October 1989 through
-                September 1990) and the highest, 90.75 inches during water year
-                1983. <br /><br />
-                Average annual rainfall at the Marin Water gauge at Lake
-                Lagunitas for the period 1875 to 2024 was 52.65 inches. Although
-                this gauge is not within the watershed, it is representative of
-                rainfall in Kentfield, Ross, and San Anselmo. The lowest value
-                during that period was 19.70 inches for water year 1924; the
-                highest, 112.15 inches for water year 1890. <br /><br />
-                Between 1951 and 1993, the U.S. Geological Survey maintained a
-                stream gage just upstream of the Lagunitas Road Bridge in Ross.
-                Since 1993, the Marin County Department of Public Works has
-                gathered data at the gage. Between 1951 and 2024, the lowest
-                flows occurred July through September 1977 when the stream was
-                dry. The highest flows occurred in early January 1982, when the
-                peak flow within the channel was 6000 cubic feet per second.
-              </p>
+              <h2 class="content-block">Header</h2>
+              <img href="#" alt="image-placeholder">
+              <p class="bc-small">Placeholder content for main section.</p>
 
-              <h2 class="content-block" id="flooding">Flooding</h2>
-              <p class="bc-small">
-                Between 1914 and 1960 there were twelve damaging floods of the
-                valley floor or about one flood every four years. Since 1960
-                damaging floods have occurred less frequently for several
-                reasons, including better creek maintenance, construction of a
-                concrete channel in Kentfield and Ross, and the fact that 14 out
-                of the 38 years were relatively dry with rainfall between 42%
-                and 75% of the average. Even so, the largest and third largest
-                floods of record occurred during this time, in January 1982 and
-                March 1983. The flood of January 3–5, 1982 was the largest on
-                record and caused considerable damage in San Anselmo, Ross,
-                Kentfield, and Larkspur. Flood water 4 to 5 feet deep flowed
-                down Poplar and Kent avenues with enough force to move cars. On
-                February 2, 1998, just as water began to come out of the channel
-                at the Lagunitas Road bridge and at Granton Park, the rain eased
-                up and the water level dropped. A flood on December 31, 2005
-                reached levels only slightly below those of the 1982 flood, and
-                spurred town and county officials to initiate an ambitious
-                program to reduce future flooding.
-              </p>
+              <h3 class="content-block" id="section-1">First</h3>
+              <p class="bc-small">Placeholder content for section 1.</p>
+
+              <h3 class="content-block" id="section-2">Second</h3>
+              <p class="bc-small">Placeholder content for section 2.</p>
+
+              <h3 class="content-block" id="section-3">Third</h3>
+              <p class="bc-small">Placeholder content for section 3.</p>
+
+              <h3 class="content-block" id="section-4">Fourth</h3>
+              <p class="bc-small">Placeholder content for section 4.</p>
+
+              <h3 class="content-block" id="section-5">Fifth</h3>
+              <p class="bc-small">Placeholder content for section 5.</p>
+
             </div>
           </div>
         </div>
@@ -99,7 +61,19 @@
       <div data-include="../parts/footer.html"></div>
     </div>
 
+    <script>
+      const heroData = {
+        title: "About the Watershed",
+        navItems: [
+          "Rainfall, Streamflow, and Flooding",
+          "Plants and Animals",
+          "Geomorphology",
+          "Land Management",
+          "Development History",
+          "Maps"
+        ]
+      };
+    </script>
     <script src="/LHDbyAlice/js/include.js"></script>
-
-      </body>
+  </body>
 </html>
