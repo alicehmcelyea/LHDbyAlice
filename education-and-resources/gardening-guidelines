@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>LHD Custom Theme</title>
-    <link rel="stylesheet" href="LHDbyAlice/assets/css/style.css" />
+    <link rel="stylesheet" href="/LHDbyAlice/assets/css/style.css" />
   </head>
   <body>
     <div class="site-wrapper">
@@ -12,7 +12,20 @@
       <div data-include="../parts/navbar.html"></div>
 
       <!-- Full-width hero section -->
-      <div data-include="../patterns/hero-section.html"></div>
+      <div class="hero-section-container">
+        <div class="hero-header">
+          <h1>Hero Title</h1>
+      
+          <div class="hero-nav">
+            <a href="#" class="hero-nav-items">Item 1</a>
+            <a href="#" class="hero-nav-items">Item 2</a>
+            <a href="#" class="hero-nav-items">Item 3</a>
+            <a href="#" class="hero-nav-items">Item 4</a>
+            <a href="#" class="hero-nav-items">Item 5</a>
+            <a href="#" class="hero-nav-items">Item 6</a>
+          </div>
+        </div>
+      </div>
 
       <!-- Constrained internal content -->
       <main class="internal-content-body">
@@ -73,7 +86,7 @@
       <div data-include="../parts/footer.html"></div>
     </div>
 
-    <script src="LHDbyAlice/js/include.js"></script>
+    <script src="/LHDbyAlice/js/include.js"></script>
 
       </body>
 </html>
