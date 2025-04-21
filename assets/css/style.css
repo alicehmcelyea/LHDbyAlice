@@ -339,6 +339,7 @@ nav a {
   align-items: flex-start;
   gap: 3.75rem;
   width: 100%;
+  align-items: stretch;
 }
 
 .rich-text-wrapper h2, h3 {
