@@ -1,33 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>LHD Custom Theme</title>
-  <link rel="stylesheet" href="/LHDbyAlice/assets/css/style.css" />
-</head>
-<body>
-  <div class="site-wrapper">
-    
-    <!-- Full-width navbar -->
-    <div data-include="./parts/navbar.html"></div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LHD Custom Theme</title>
+    <link rel="stylesheet" href="LHDbyAlice/assets/css/style.css" />
 
-    <!-- Full-width hero section -->
-    <div data-include="./patterns/hero-section.html"></div>
+  </head>
+  <body>
+    <div class="site-wrapper">
 
-    <!-- Constrained internal content -->
-    <main class="internal-content-body">
-    <div data-include="./patterns/content.html"></div>
+      <div data-include="./parts/navbar.html"></div>
+      <div data-include="./patterns/hero-section.html"></div>
 
-    </main>
-
-    <!-- Footer can be constrained or full-width -->
+      <main class="internal-content-body">
+        <div data-include="./patterns/content.html"></div>
+      </main>
 
       <div data-include="./parts/footer.html"></div>
+    </div>
 
-  </div>
+    <script src="LHDbyAlice/js/include.js"></script>
 
-  <script src="/LHDbyAlice/js/include.js"></script>
-</body>
-
+  </body>
 </html>

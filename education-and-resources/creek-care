@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LHD Custom Theme</title>
+    <link rel="stylesheet" href="LHDbyAlice/assets/css/style.css" />
+  </head>
+  <body>
+    <div class="site-wrapper">
+      <!-- Full-width navbar -->
+      <div data-include="../parts/navbar.html"></div>
+
+      <!-- Full-width hero section -->
+      <div data-include="../patterns/hero-section.html"></div>
+
+      <!-- Constrained internal content -->
+      <main class="internal-content-body">
+        <div>
+          <div class="rich-text-wrapper">
+            <aside class="table-of-contents">
+              <div class="toc-header">
+                <h3>Table of Contents</h3>
+                <hr class="toc-divider" />
+              </div>
+
+              <ul>
+                <li><a href="#overview">Overview </a></li>
+              </ul>
+            </aside>
+
+            <div class="sidebar-richtext">
+              <h2 class="content-block" id="overview">Creek Care Overview</h2>
+              <img href="#" alt="creek-care-overview" />
+              <p class="bc-small">
+                While the health of our creeks is very much influenced by human
+                activities in the uplands of our watershed, creeks have their
+                own dynamics that have a direct relationship with their
+                immediate human neighbors. Thanks to the tradition that property
+                boundaries generally run down the center of the creek, waterways
+                are usually not bridged over or otherwise developed beyond what
+                is necessary to protect real estate (or to accommodate public
+                roads). The result is that creek corridors are—or have the
+                potential to be—nature reserves and fish and wildlife migration
+                corridors in the heart of the heavily developed valley floor.  
+                <br /><br />
+                There are many ways that the creeks’ natural resources and
+                ecosystem functions can be protected, enhanced or restored. The
+                most effective way to avoid impacts is to keep development out
+                of and away from a creek. Yet in a developed watershed like
+                ours, there are many options to enhance the creeks’ resources,
+                if not restore them. 
+              </p>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <!-- Footer -->
+      <div data-include="../parts/footer.html"></div>
+    </div>
+
+    <script src="LHDbyAlice/js/include.js"></script>
+  </body>
+</html>
