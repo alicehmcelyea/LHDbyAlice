@@ -348,7 +348,7 @@ nav a {
 
 .table-of-contents {
   position: sticky;
-  top: 2rem; /* 👈 Add this to define stickiness offset */
+  top: 6rem; /* 👈 Add this to define stickiness offset */
   align-self: flex-start; /* 👈 Ensure sticky respects the flex layout */
   width: 17.5rem;
   padding: 1.25rem;
