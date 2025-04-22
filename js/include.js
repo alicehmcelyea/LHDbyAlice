@@ -55,3 +55,25 @@ document.addEventListener("DOMContentLoaded", function () {
       });
   });
 });
+
+if (pageTitle) {
+  const contentHeader = document.querySelector(".sidebar-richtext h2");
+  if (contentHeader) {
+    contentHeader.innerText = pageTitle;
+  }
+
+  if (typeof heroData !== "undefined") {
+    heroData.title = pageTitle;
+  }
+
+  // Inject into breadcrumb if present
+  const breadcrumbCurrent = document.querySelector(".breadcrumb-current");
+  if (breadcrumbCurrent) {
+    breadcrumbCurrent.textContent = pageTitle;
+  }
+
+  const heroTitle = document.querySelector(".hero-title");
+  if (heroTitle) {
+    heroTitle.textContent = pageTitle;
+  }
+}

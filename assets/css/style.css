@@ -284,12 +284,12 @@ nav a {
   Hero Section Styles
 ====================== */
 
-.hero-section-container {
+.hero-text-nav.hero-section-container {
   width: 100%;
 }
 
 /* This is now your background wrapper */
-.hero-header {
+.hero-text-nav .hero-header {
   width: 100%;
   background: #79A242;
   padding: 2.5rem 5rem;
@@ -297,14 +297,14 @@ nav a {
 }
 
 /* Target the heading inside */
-.hero-header h1 {
+.hero-text-nav .hero-header h1 {
   color: #fff;
   text-align: center;
   margin: 0;
 }
 
 /* Nav bar under the header */
-.hero-nav {
+.hero-text-nav .hero-nav {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -312,7 +312,7 @@ nav a {
   margin-top: 2rem;
 }
 
-.hero-nav-items {
+.hero-text-nav .hero-nav-items {
   color: white;
   text-decoration: none;
   font-weight: 400;
@@ -322,14 +322,69 @@ nav a {
   line-height: 1.375rem;
   font-style: normal;
   font-size: 1.25rem;
-
 }
 
-
-
-.hero-nav-items:hover {
+.hero-text-nav .hero-nav-items:hover {
   background: rgba(255, 255, 255, 0.05);
 }
+
+/* ======================
+  Hero - Breadcrumb Nav Style
+====================== */
+
+.hero-breadcrumb-nav.hero-section-container {
+  display: flex;
+  height: 21.875rem;
+  align-items: flex-start;
+  align-self: stretch;
+}
+
+.hero-breadcrumb-nav .hero-image-column {
+  flex: 1 0 0;
+  align-self: stretch;
+}
+
+.hero-breadcrumb-nav .hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-breadcrumb-nav .hero-text-column {
+  flex: 1 0 0;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  padding: 2.5rem 0rem 2.5rem 5rem;
+  gap: 0.625rem;
+  background-color: #79A242;
+  color: #fff;
+}
+
+.hero-breadcrumb-nav .breadcrumb-nav {
+  display: flex;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+  align-items: center;
+  color: #fff;
+}
+
+.hero-breadcrumb-nav .breadcrumb-nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.hero-breadcrumb-nav .breadcrumb-nav a:hover {
+  text-decoration: underline;
+}
+
+.hero-breadcrumb-nav .hero-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 0;
+  color: #fff;
+}
+
 
 /* ======================
    Internal Content Body Styles
@@ -348,7 +403,7 @@ nav a {
 
 .table-of-contents {
   position: sticky;
-  top: 8rem; /* 👈 Add this to define stickiness offset */
+  top: 10rem; /* 👈 Add this to define stickiness offset */
   align-self: flex-start; /* 👈 Ensure sticky respects the flex layout */
   width: 17.5rem;
   padding: 1.25rem;
