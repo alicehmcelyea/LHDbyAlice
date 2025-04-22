@@ -365,7 +365,6 @@ nav a {
 .hero-breadcrumb-nav .breadcrumb-nav {
   display: flex;
   gap: 0.5rem;
-  font-size: 0.875rem;
   align-items: center;
   color: #fff;
 }
