@@ -386,10 +386,9 @@ nav a {
   gap: 0.625rem;
   flex: 1 0 0;
   align-self: stretch;
-  font-size: 2.5rem;
-  font-weight: bold;
   color: #fff;
   margin: 0;
+
 }
 
 
