@@ -1,6 +1,23 @@
 document.addEventListener("DOMContentLoaded", function () {
-  const includes = document.querySelectorAll('[data-include]');
+  // STEP 1: Get title from URL (before includes load)
+  const params = new URLSearchParams(window.location.search);
+  const pageTitle = params.get("title");
 
+  if (pageTitle) {
+    // Update content header title
+    const contentHeader = document.querySelector(".sidebar-richtext h2");
+    if (contentHeader) {
+      contentHeader.innerText = pageTitle;
+    }
+
+    // Also update hero title if heroData is defined
+    if (typeof heroData !== "undefined") {
+      heroData.title = pageTitle;
+    }
+  }
+
+  // STEP 2: Load includes
+  const includes = document.querySelectorAll('[data-include]');
   includes.forEach(el => {
     const file = el.getAttribute('data-include');
     fetch(file)
