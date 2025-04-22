@@ -334,10 +334,12 @@ nav a {
 
 .hero-breadcrumb-nav.hero-section-container {
   display: flex;
+  flex-direction: row; 
   height: 21.875rem;
   align-items: flex-start;
   align-self: stretch;
 }
+
 
 .hero-breadcrumb-nav .hero-image-column {
   flex: 1 0 0;
