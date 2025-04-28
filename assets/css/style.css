@@ -284,6 +284,27 @@ nav a {
   Hero Section Styles
 ====================== */
 
+
+.hero-banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: stretch;
+  padding: 12.5rem 5rem;
+  background: url('your-image-path.jpg') center/cover no-repeat;
+}
+
+.hero-banner h1 {
+  color: #FFF;
+  text-align: center;
+  font-family: "Cronos Pro", sans-serif;
+  font-size: 4.375rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 4.875rem;
+}
+
+
 .hero-text-nav.hero-section-container {
   width: 100%;
 }

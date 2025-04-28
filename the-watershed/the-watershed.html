@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LHD Custom Theme</title>
+    <link rel="stylesheet" href="/LHDbyAlice/assets/css/style.css" />
+  </head>
+  <body>
+    <div class="site-wrapper">
+      <!-- Full-width navbar -->
+      <div data-include="../parts/navbar.html"></div>
+
+      <!-- Full-width hero section -->
+      <div data-include="../parts/hero/hero-main.html"></div>
+
+           <main></main> 
+
+      <!-- Footer -->
+      <div data-include="../parts/footer.html"></div>
+    </div>
+
+    <script>
+        const heroData = {
+          title: "Projects"
+          // No navItems here because you don't have a sidebar!
+        };
+      
+        document.addEventListener("DOMContentLoaded", function() {
+          const heroTitleElement = document.getElementById("hero-title");
+          if (heroTitleElement && heroData.title) {
+            heroTitleElement.textContent = heroData.title;
+          }
+        });
+      </script>
+      <script src="/LHDbyAlice/js/include.js"></script>
+  </body>
+</html>
