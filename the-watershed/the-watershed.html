@@ -14,25 +14,40 @@
       <!-- Full-width hero section -->
       <div data-include="../parts/hero/hero-main.html"></div>
 
-           <main></main> 
+      <main></main>
 
       <!-- Footer -->
       <div data-include="../parts/footer.html"></div>
     </div>
 
+    <!-- First, define your hero data -->
     <script>
-        const heroData = {
-          title: "Projects"
-          // No navItems here because you don't have a sidebar!
-        };
-      
-        document.addEventListener("DOMContentLoaded", function() {
+      const heroData = {
+        title: "Projects",
+        backgroundImage: "/LHDbyAlice/assets/images/projects-hero.jpg" // if you're adding dynamic background too
+      };
+    </script>
+
+    <!-- Include the script that handles loading external HTML parts -->
+    <script src="/LHDbyAlice/js/include.js"></script>
+
+    <!-- Then, AFTER the includes are loaded, inject your hero content -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        // Wait a little bit for include.js to finish
+        setTimeout(function() {
           const heroTitleElement = document.getElementById("hero-title");
+          const heroBannerElement = document.querySelector(".hero-banner");
+
           if (heroTitleElement && heroData.title) {
             heroTitleElement.textContent = heroData.title;
           }
-        });
-      </script>
-      <script src="/LHDbyAlice/js/include.js"></script>
+
+          if (heroBannerElement && heroData.backgroundImage) {
+            heroBannerElement.style.background = `url('${heroData.backgroundImage}') center/cover no-repeat`;
+          }
+        }, 50); // Small delay to make sure includes are loaded
+      });
+    </script>
   </body>
 </html>
