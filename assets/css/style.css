@@ -458,6 +458,64 @@ nav a {
   color: #fff;
 }
 
+/* ======================
+  Feature Section
+====================== */
+
+.feature-section {
+  background-color: #fff;
+  padding: 4rem 5rem;
+  color: #000;
+}
+
+.feature-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.feature-text {
+  flex: 1;
+}
+
+.feature-text h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.feature-text p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.feature-link {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #2579B1;
+  text-decoration: none;
+}
+
+.feature-link:hover {
+  text-decoration: underline;
+}
+
+.feature-image {
+  flex: 1;
+}
+
+.feature-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+  object-fit: cover;
+}
 
 
 /* ======================
