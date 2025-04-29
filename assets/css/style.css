@@ -416,6 +416,47 @@ nav a {
 
 }
 
+/* ======================
+  Split Content Section
+====================== */
+
+.split-content-section {
+  background-color: #4178a6; /* adjust to match your theme */
+  color: #fff;
+  padding: 3rem 5rem;
+}
+
+.split-content-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.split-content-left {
+  flex: 1;
+}
+
+.split-content-left h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 0;
+  line-height: 1.4;
+}
+
+.split-content-right {
+  flex: 1;
+}
+
+.split-content-right p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin: 0;
+}
+
+
 
 /* ======================
    Internal Content Body Styles
