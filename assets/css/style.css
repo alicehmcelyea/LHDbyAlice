@@ -517,6 +517,49 @@ nav a {
   object-fit: cover;
 }
 
+/* ======================
+  CTA Section
+====================== */
+
+.cta-section {
+  background-color: #4178a6; /* Adjust to fit your palette */
+  color: #fff;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.cta-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.cta-content h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.cta-content p {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  color: #fff;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: #fff;
+  color: #4178a6;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.375rem;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.2s ease;
+}
+
+.cta-button:hover {
+  background-color: #e6e6e6;
+}
+
 
 /* ======================
    Internal Content Body Styles
